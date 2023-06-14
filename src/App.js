@@ -6,6 +6,7 @@ import VendingMachine from './VendingMachine';
 import FreshSardines from './FreshSardines';
 import Soda from './Soda';
 import Chips from './Chips';
+import NavBar from './NavBar';
 
 
 import './App.css';
@@ -13,6 +14,7 @@ import './App.css';
 function App() {
   return (
       <BrowserRouter>
+        <NavBar to=""/>
         <Switch>
           <Route exact path="/">
             <VendingMachine />

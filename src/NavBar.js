@@ -5,16 +5,16 @@ import "./NavBar.css";
 function NavBar() {
     return (
         <nav className="NavBar">
-            <NavLink exact path="/">
+            <NavLink exact to="/">
                 VendingMachine
             </NavLink>
-            <NavLink exact path="/soda">
+            <NavLink exact to="/soda">
                 Soda
             </NavLink>
-            <NavLink exact path="/chips">
+            <NavLink exact to="/chips">
                 Chips
             </NavLink>
-            <NavLink exact path="/sardines">
+            <NavLink exact to="/sardines">
                 FreshSardines
             </NavLink>
         </nav>
